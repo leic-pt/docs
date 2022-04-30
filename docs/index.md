@@ -1,17 +1,14 @@
-# Welcome to MkDocs
+# Contribuir Resumos LEIC
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Queres contribuir para os [Resumos LEIC](https://resumos.leic.pt)?  
+Não te preocupes, é fácil!
 
-## Commands
+Abaixo encontras os recursos que precisas para contribuir:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- [Configuração do ambiente de desenvolvimento (Git + Node.JS + Yarn + editor de texto)](./development-environment.md)
+- [Clonar o repositório git](./git-clone.md)
+- [Correr o site localmente](./running-locally.md)
+- Efetuar alterações
+- Publicar as alterações no site (pull request)
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Caso tenhas dúvidas, entra no Discord [IST Hub](https://isthub.pt) onde tens outros alunos que te podem ajudar!

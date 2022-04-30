@@ -30,6 +30,20 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/leic-pt
+    - icon: fontawesome/brands/discord
+      link: https://isthub.pt
 repo_url: https://github.com/leic-pt/resumos-leic
 repo_name: leic-pt/resumos-leic
 edit_uri: https://github.com/leic-pt/docs/master/docs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Contribuir Resumos LEIC:
+    - Overview: index.md
+    - Configurar Ambiente: development-environment.md
+    - Clonar Repositório: git-clone.md
+    - Correr Localmente: running-locally.md
