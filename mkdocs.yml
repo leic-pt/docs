@@ -1,0 +1,35 @@
+site_name: Documentação LEIC.pt
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/lightbulb
+        name: Mudar para light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: Mudar para dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+  icon:
+    repo: fontawesome/brands/github
+plugins:
+  - search
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/leic-pt
+repo_url: https://github.com/leic-pt/resumos-leic
+repo_name: leic-pt/resumos-leic
+edit_uri: https://github.com/leic-pt/docs/master/docs
