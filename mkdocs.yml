@@ -49,6 +49,7 @@ nav:
     - Clonar Repositório: git-clone.md
     - Correr Localmente: running-locally.md
     - Efetuar Alterações: changing-content.md
+    - Submeter Alterações: submitting-changes.md
   - Referência Markdown:
     - CommonMark: markdown-reference/common-mark.md
     - Fórmulas Matemáticas: markdown-reference/math.md

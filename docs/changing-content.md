@@ -50,6 +50,19 @@ uma pasta `assets`, um ficheiro `index.md` e possivelmente outras pastas.
 - `assets`: Pasta onde se guarda ficheiros auxiliares, como imagens. Geralmente, usa-se o
   formato `XXXX-pequena-descricao.png` onde `XXXX` é o identificador da página onde são usados.
 
+## Criar uma nova Branch
+
+Também é importante criares um (ou mais que um) *Branch* para fazer alterações.  
+Uma *Branch* deve ser criada quando se pretende adicionar uma nova *feature*, corrigir um *bug* existente, etc. - basicamente, quando surge uma nova tarefa, deve-se criar uma *Branch* para a resolver.  
+
+Por exemplo, se quiser fazer resumos de `CDI-I` e `BD` e corrigir erros ortográficos de uma página de `SO`, devo ter um *Branch* para cada tarefa: 
+- `git branch "CDI-I_resumosNovos"`; 
+- `git branch "BD_resumosNovos"`; 
+- `git branch "SO_corrigirBugs"`.  
+
+Para mudar de branch, deves fazer `git checkout *nomeDoBranch*`.
+
+
 ## Editar Páginas Existentes
 
 Para editar um página já existente, basta abrir o respetivo ficheiro e editar o seu conteúdo.
