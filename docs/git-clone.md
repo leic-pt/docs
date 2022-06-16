@@ -34,6 +34,9 @@ upstream	https://github.com/leic-pt/resumos-leic.git (fetch)
 upstream	https://github.com/leic-pt/resumos-leic.git (push)
 ```
 
-Parabéns, já tens o repositório Git no teu computador!
+Parabéns, já tens o repositório Git no teu computador!  
 
-Caso esta seja a primeira vez que estás a usar Git, é recomendado veres a [palestra do Missing Semester do MIT sobre Git](https://missing.csail.mit.edu/2020/version-control/). Sim, é 1h30, mas aprendes tudo o que precisas, e acredita, saberes Git ir-te-á ser útil para os projetos que vais fazer ao longo do curso!
+Trata este repositório como se fosse exclusivamente teu - cria *branches* para a adição de *features* e faz `commit` sempre que achares pretinente.
+
+Caso esta seja a primeira vez que estás a usar Git, é recomendado veres a [palestra do Missing Semester do MIT sobre Git](https://missing.csail.mit.edu/2020/version-control/). Sim, é 1h30, mas aprendes tudo o que precisas, e acredita, saberes Git ir-te-á ser útil para os projetos que vais fazer ao longo do curso!  
+Para além disso, no fim da página encontra-se uma *Cheet Sheet* com os comandos mais usados.
