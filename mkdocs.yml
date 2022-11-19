@@ -1,6 +1,7 @@
 site_name: Documentação LEIC.pt
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -44,19 +45,19 @@ markdown_extensions:
 
 nav:
   - Contribuir Resumos LEIC:
-    - Overview: index.md
-    - Configurar Ambiente: development-environment.md
-    - Clonar Repositório: git-clone.md
-    - Correr Localmente: running-locally.md
-    - Efetuar Alterações: changing-content.md
-    - Submeter Alterações: submitting-changes.md
+      - Overview: index.md
+      - Configurar Ambiente: development-environment.md
+      - Clonar Repositório: git-clone.md
+      - Correr Localmente: running-locally.md
+      - Efetuar Alterações: changing-content.md
+      - Submeter Alterações: submitting-changes.md
   - Referência Markdown:
-    - CommonMark: markdown-reference/common-mark.md
-    - Fórmulas Matemáticas: markdown-reference/math.md
-    - Containers: markdown-reference/containers.md
-    - Filtros em Imagens: markdown-reference/image-filters.md
-    - Cores no Texto: markdown-reference/text-color.md
-    - Tabelas: markdown-reference/tables.md
-    - Table of Contents: markdown-reference/toc.md
-    - Vídeos: markdown-reference/videos.md
-    - Footnotes: markdown-reference/footnotes.md
+      - CommonMark: markdown-reference/common-mark.md
+      - Fórmulas Matemáticas: markdown-reference/math.md
+      - Containers: markdown-reference/containers.md
+      - Filtros em Imagens: markdown-reference/image-filters.md
+      - Cores no Texto: markdown-reference/text-color.md
+      - Tabelas: markdown-reference/tables.md
+      - Table of Contents: markdown-reference/toc.md
+      - Vídeos: markdown-reference/videos.md
+      - Footnotes: markdown-reference/footnotes.md
