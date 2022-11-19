@@ -9,6 +9,6 @@ Abaixo encontras os recursos que precisas para contribuir:
 - [Clonar o repositório git](./git-clone.md)
 - [Correr o site localmente](./running-locally.md)
 - [Efetuar alterações](./changing-content.md)
-- Publicar as alterações no site (pull request)
+- [Publicar as alterações no site (_pull request_)](./submitting-changes.md)
 
 Caso tenhas dúvidas, entra no Discord [IST Hub](https://isthub.pt) onde tens outros alunos que te podem ajudar!
