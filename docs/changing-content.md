@@ -50,18 +50,43 @@ uma pasta `assets`, um ficheiro `index.md` e possivelmente outras pastas.
 - `assets`: Pasta onde se guarda ficheiros auxiliares, como imagens. Geralmente, usa-se o
   formato `XXXX-pequena-descricao.png` onde `XXXX` é o identificador da página onde são usados.
 
-## Criar uma nova Branch
+## Criar um Novo Branch
 
-Também é importante criares um (ou mais que um) *Branch* para fazer alterações.  
-Uma *Branch* deve ser criada quando se pretende adicionar uma nova *feature*, corrigir um *bug* existente, etc. - basicamente, quando surge uma nova tarefa, deve-se criar uma *Branch* para a resolver.  
+Antes de começares a efetuar alterações, **deves criar um _branch_**.
+Isto também se pode fazer no final, mas depois corre-se o risco de nos esquecermos.  
+Quando fores [submeter alterações](./submitting-changes.md), vais fazê-lo ao submeter
+o teu _branch_. Podes pensar num _branch_ como um conjunto de alterações face ao atual.
 
-Por exemplo, se quiser fazer resumos de `CDI-I` e `BD` e corrigir erros ortográficos de uma página de `SO`, devo ter um *Branch* para cada tarefa: 
-- `git branch "CDI-I_resumosNovos"`; 
-- `git branch "BD_resumosNovos"`; 
-- `git branch "SO_corrigirBugs"`.  
+!!! info "O que é um _branch_?"
 
-Para mudar de branch, deves fazer `git checkout *nomeDoBranch*`.
+    No contexto de desenvolvimento de software, um _branch_ deve ser criado quando se
+    pretende adicionar uma nova _feature_, corrigir um _bug_ existente, etc.
+    Aqui temos algo semelhante, mas para alterações.
 
+É boa prática agrupar alterações relacionadas num só _branch_, sendo que um _branch_ pode ter
+vários _commits_.
+
+Por exemplo, se quisermos fazer resumos de **CDI-I** e **BD** e corrigir erros
+ortográficos de uma página de **SO**, devemos criar os seguintes _branches_,
+através do comando `git branch <branch name>`.
+
+- `git branch cdi1/add-content-sucessoes`;
+- `git branch bd/add-content-dmbs`;
+- `git branch so/fix-typos`.
+
+Para mudar de _branch_, deves fazer `git checkout <branch name>`, sendo que o nome
+do _default branch_ é `master`.
+
+!!! note
+
+    Os nomes dos branches são arbitrários, pelo que podes lhes dar o nome que quiseres.
+    Os nomes acima servem apenas de exemplo.
+
+!!! failure "Alterações para o `master`"
+
+    **Nunca** faças alterações diretamente para o `master`! Dado que estás a trabalhar
+    com uma _fork_, o teu _branch_ `master` deverá estar sempre sincronizado com o
+    _branch_ `master` do repositório principal (frequentemente apelidado de _upstream_).
 
 ## Editar Páginas Existentes
 
