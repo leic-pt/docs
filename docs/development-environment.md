@@ -3,7 +3,7 @@
 Para contribuires para os [Resumos LEIC](https://resumos.leic.pt), precisas de ter os seguintes programas instalados:
 
 - `git`
-- `node` ([NodeJS](https://nodejs.org) v14+)
+- `node` ([NodeJS](https://nodejs.org) v18+)
 - `yarn`
 - Um editor de texto (por exemplo, [VSCode](https://code.visualstudio.com/))
 
