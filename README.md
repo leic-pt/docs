@@ -25,7 +25,3 @@ Para correr a documentação localmente, deves:
    ```
 
 Para desativar o venv, correr `deactivate`.
-
-## Parceiros
-
-[![Powered by Vercel](./.github/vercel-logo.svg)](https://vercel.com/?utm_source=leic-pt&utm_campaign=oss)
