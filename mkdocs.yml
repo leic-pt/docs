@@ -18,6 +18,9 @@ theme:
         icon: material/lightbulb
         name: Mudar para dark mode
   features:
+    - content.action.edit
+    - content.code.copy
+    - navigation.footer
     - navigation.instant
     - navigation.tracking
     - navigation.tabs

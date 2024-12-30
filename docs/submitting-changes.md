@@ -17,7 +17,7 @@ Para isso, começas por proceder como se estivesses a trabalhar num repositório
 Assim que tiveres feito _push_ para o **_teu_** repositório, irá aparecer a opção de fazer
 um pull request no _GitHub_:
 
-![Prompt to open pull request](/static/PullRequest.png)
+![Prompt to open pull request](./static/PullRequest.png)
 
 !!! info
 
@@ -29,7 +29,7 @@ um pull request no _GitHub_:
 
 Irá então aparecer uma página que permite escrever um titulo e uma descrição do _pull request_.
 
-![GitHub PR Description](/static/PullRequestMenu.png)
+![GitHub PR Description](./static/PullRequestMenu.png)
 
 !!! success "Título do _Pull Request_"
 
